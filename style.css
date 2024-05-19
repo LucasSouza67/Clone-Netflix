@@ -1,0 +1,285 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body{
+    font-family: 'Circular Std', sans-serif;
+    margin: 0px;
+    background-color: black;
+    height: 1220px;
+    
+}
+
+#logo{
+    width: 150px;
+    margin-left: 100px;
+}
+
+#contenier{
+    
+    height: 700px;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0.8) 90%), url("imagens/corpo_novo.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+#nav{
+    margin-right: 8px;
+}
+select{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.678);
+    padding: 4px 36px;
+    font-size: 15px;
+}
+#btn_entrar{
+    color: white;
+    padding: 7px 10px;
+    font-size: 14px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+#main{
+    color: white;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 800px;
+}
+
+.subtitle{
+    margin-left: 280px;
+    color: white;
+}
+h3{
+    margin-left: 200px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 220px;
+    height: 50px;   
+}
+#input{
+    padding: 24px 16px 8px;
+    height: 20px;
+    width: 320px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#btn_vamos{
+    margin-left: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 22px;
+    font-weight: 800px;
+    color: white; 
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+}
+
+#information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 98%;
+    height: 200px;
+    margin: 0 auto;;
+    margin-top: 100px; 
+    background: radial-gradient(51.39% 511.66% at 47.68% -217.91%, #ff9900 0%, #e50914 17.27%, #0e1b4f 79.44%, #000413 100%);  
+    border-radius: 5px;
+}#image_popcorn{
+    width: 150px;
+    margin-left: 300px;
+    margin-right: -100px;
+}
+#information_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0px 32px;
+    color: white;
+    margin-left: -150px;
+}
+p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+#box{
+    width: 98%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.box_info{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+.box_title{
+    font-size: 60px;
+    font-weight: 800px;
+    margin-left: 10px;
+}
+.shadow{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(128, 128, 128, 0.281);
+}
+#teste{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;    
+    margin-top: 200px;
+    color: white;
+}
+#links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 180px;
+}
+.link{
+    text-decoration: none;
+    color: grey;
+    padding: 0px;
+    margin-right: -10px;
+    margin-left: -10px;
+    width: 400px;
+    height: 250px;
+}
+#link_externo{
+    color: blue;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    margin-right: 210px;
+}
+li{
+    list-style-type: none;
+    font-size: 15px;
+    padding: 0px;
+    margin-top: 10px;
+    margin-right: -100px;
+    margin-left: -100px;
+    width: 400px;
+}
+#principal{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.856) 0%, rgba(0, 0, 0, 0.288) 40%, rgba(0, 0, 0, 0.8) 90%),url(imagens/corpo_novo.jpg);
+    height: 700px;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+#imagem_logo{
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#tela{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 540px;
+    height: 600px;
+    margin-left: 350px;
+    background-color: rgba(0, 0, 0, 0.596);
+    color: white;
+}
+#text_entra{
+    margin-top: -50px;
+    margin-bottom: 10px;
+    margin-right: 220px;
+    font-size: 40px;
+}
+#formulario1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 20px;
+}
+#entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    margin-right: 200px;
+}
+#btn_entra{
+    color: white;
+    padding: 7px 10px;
+    font-size: 14px;
+    width: 350px;
+    height: 50px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+    margin-left: 40px;
+}
+#btn_codigo{
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 8px;
+    width: 350px;
+    height: 40px;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+}
+#link_1{
+    font-size: 15px;
+    margin-left: 190px;
+    margin-top: 15px;
+    color: white;
+}
+#checkbox_caixa{
+    width: 18px;
+    height: 18px;
+    margin-left: 110px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+#p2{
+    font-size: 16px;
+    color: grey;
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 110px;
+    font-weight: 400px;
+}
+#link_2{
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
