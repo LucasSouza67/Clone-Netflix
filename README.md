@@ -1,2 +1,2 @@
 # Clone-Netflix
- Clone da pagína inicial e de loginda Netflix
+ Clone da pagína inicial e de login da Netflix
