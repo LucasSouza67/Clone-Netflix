@@ -5,14 +5,11 @@ body{
     margin: 0px;
     background-color: black;
     height: 1220px;
-    
 }
-
 #logo{
     width: 150px;
     margin-left: 100px;
 }
-
 #contenier{
     
     height: 700px;
@@ -20,7 +17,6 @@ body{
     background-size: cover;
     padding: 30px;
 }
-
 #header{
     display: flex;
     flex-direction: row;
@@ -45,6 +41,9 @@ select{
     border: none;
     border-radius: 5px;
     margin: 20px;
+}
+#btn_entrar:hover, select:hover, #btn_vamos:hover{
+    cursor: pointer;
 }
 #main{
     color: white;
@@ -189,9 +188,16 @@ li{
     margin-left: -100px;
     width: 400px;
 }
+
+/* tela de login */
+#body{
+    width: 94.3vw;
+    height: 100vh;
+}
 #principal{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.856) 0%, rgba(0, 0, 0, 0.288) 40%, rgba(0, 0, 0, 0.8) 90%),url(imagens/corpo_novo.jpg);
-    height: 700px;
+    height: 100vh;
+    width: 94.3vw;
     background-size: cover;
     padding: 30px;
     margin-bottom: 25px;
@@ -207,9 +213,9 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 540px;
-    height: 600px;
-    margin-left: 350px;
+    width: 50vw;
+    height: 100vh;
+    margin-left: 320px;
     background-color: rgba(0, 0, 0, 0.596);
     color: white;
 }
@@ -229,6 +235,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 40vw;
 }
 .formulario{
     margin-right: 200px;
@@ -244,6 +251,9 @@ li{
     border-radius: 5px;
     margin: 20px;
     margin-left: 40px;
+}
+#btn_entra:hover,#btn_codigo{
+    cursor: pointer;
 }
 #btn_codigo{
     background-color: rgba(255, 255, 255, 0.164);
@@ -282,4 +292,7 @@ li{
 #link_2{
     color: rgb(255, 255, 255);
     font-weight: 500;
+}
+.footer{
+    width: 97vw;
 }
